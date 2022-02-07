@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+    /* CSS RESET */
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pexels-leon-ardho-1552242.jpg');
+        background-repeat: no-repeat;
+        background-size: 1700px 1300px;
+        color: white;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid white; */
+        position: absolute;
+        left: 30px;
+        top: 10px;
+
+    }
+    .left img{
+        width: 60px;
+        filter: invert(100%);
+    }
+
+    .left div{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .center{
+        /* border: 2px solid white; */
+        display: block;
+        width: 33%;
+        margin: 10px auto;
+        font-size: large;
+
+    }
+    .right{
+        /* border: 2px solid white; */
+        position: absolute;
+        right: 60px;
+        top: 20px;
+        
+
+    }
+    .right .btn{
+        color: white;
+        background-color: black;
+        font-size: 15px;
+        border-radius: 10px;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    .right .btn:hover{
+        background-color: gray;
+    }
+
+
+    .navbar{
+        display: inline-block;
+        color: white;
+    }
+
+    .navbar li{
+        display: inline-block;
+        
+    }
+
+    .navbar li a{
+        color: white;
+        margin: 22px;
+        text-decoration: none;
+    }
+
+    .navbar li a.active,.navbar li a:hover{
+        text-decoration: underline;
+        color: rgb(170, 167, 167);
+    }
+
+   .container{
+        border: 2px solid white;
+        margin: 150px;
+        margin-left: 550px;
+        position: absolute;
+        width: 450px;
+        height: 250px;
+        background-color: black;
+        opacity: 0.7;
+        border-radius: 10px;
+    }
+
+    .container .text{
+        text-align: center;
+        padding: 10px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight:bold;
+    }
+
+    .container .form{
+        font-family: 'Roboto Mono', monospace;
+    }
+    .container .form .form1{
+        padding: 10px;
+    }
+    .container .form .form1 .f1 input{
+        padding-top: 5px; 
+        width: 250px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .container .form .form2{
+        position: absolute;
+        padding-left: 10px;
+    }
+    .container .form .form2 .f2 input{
+        padding-top: 5px; 
+        width: 250px;
+        border-radius: 10px;
+        margin-top: 5px;
+        
+    }
+
+    .container .form .form3{
+        padding-left: 10px;
+        position: absolute;
+        padding-top: 55px;
+    }
+    .container .form .form3 .f3 input{
+        padding-top: 5px;  
+        width: 250px;
+        border-radius: 10px;
+        margin-top: 5px;  
+    }
